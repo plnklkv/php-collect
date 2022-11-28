@@ -1,0 +1,24 @@
+{
+    "name": "plnklkv/php-collect",
+    "description": "Module for working with arrays",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "plnklkv",
+            "email": "polinakulakova04072@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
